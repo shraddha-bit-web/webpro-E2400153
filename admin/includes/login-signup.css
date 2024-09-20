@@ -1,0 +1,56 @@
+/* Basic styling for the container */
+.login-signup-container {
+    width: 30%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(10, 187, 55, 0.1);
+    background-color: #adb9ae; 
+}
+
+/* Styling for buttons */
+.btn-group .btn {
+    flex: 1;
+}
+
+/* Styling for buttons with theme color */
+.btn-primary {
+    background-color: #5f8424; 
+    border-color: #4caf50;
+}
+
+.btn-primary:hover {
+    background-color: #79cc30; 
+    border-color: #2c6b2f;
+}
+
+.btn-secondary {
+    background-color: #81c784;
+    border-color: #81c784;
+}
+
+.btn-secondary:hover {
+    background-color: #69c531; 
+    border-color: #4caf50;
+}
+
+/* Styling for form container */
+.form-container {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+/* Styling for the hidden form */
+.d-none {
+    display: none;
+}
+
+/* Hover effect for inputs */
+.form-control:focus {
+    border-color: #b6bf39;
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25); 
+}
