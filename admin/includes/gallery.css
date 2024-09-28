@@ -1,0 +1,54 @@
+/* Styling for the company name */
+.company-name {
+    font-size: 2rem;
+    color: #006400; /* Dark green color */
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styling for the Home link */
+.home-link {
+    font-size: 1.2rem;
+    color: #228B22;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #F0FFF0;
+    border: 2px solid #228B22; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the Home link */
+
+.home-link:hover {
+    background-color: #228B22; 
+    color: #c0e9a6;
+}
+
+body{
+    background-color: darkolivegreen;
+}
+
+.container{
+    margin: 45px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
+.company-name h3{
+    color: #F0FFF0;
+}
